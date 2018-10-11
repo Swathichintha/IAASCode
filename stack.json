@@ -69,7 +69,7 @@
 							"sudo yum install git -y\n",
 							"sudo mkdir /root/ansible\n",
 							"cd /root/ansible\n",
-							"sudo git clone https://github.com/gopikrishna8464/Ansible_Roles.git\n",
+							"sudo git clone https://github.com/Swathichintha/Ansible_Roles.git\n",
                                                         "cd /root/ansible/Ansible_Roles/tomcat\n",
 							"sudo ansible-playbook -v site.yml\n",
 							"cd /usr/share/tomcat/bin\n",
