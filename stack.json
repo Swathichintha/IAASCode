@@ -15,7 +15,7 @@
 		"KeyName": {
 			"Description": "Name of an existing EC2 KeyPair to enable SSH access to the instance",
 			"Type": "String",
-			"Default": "SWATHI"
+			"Default": "NewProj"
 
 		},
 		"ImageID": {
@@ -27,12 +27,12 @@
 		"InstanceSecurityGroup": {
 			"Description": " The IP address range that can be used to SSH to the EC2 instances",
 			"Type": "AWS::EC2::SecurityGroup::Id",
-			"Default": "sg-495b6323"
+			"Default": "sg-0de43e930ee70c49d"
 		},
 		"SubnetId": {
 			"Description": " The IP address range that can be used to SSH to the EC2 instances",
 			"Type": "AWS::EC2::Subnet::Id",
-			"Default": "subnet-979b76ed"
+			"Default": "subnet-5052aa2a"
 		}
 
 	},
