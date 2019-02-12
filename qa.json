@@ -9,14 +9,14 @@
   },
    {
     "ParameterKey": "KeyName",
-    "ParameterValue": "GOPIKRISH"
+    "ParameterValue": "NewProj"
    },
   {
      "ParameterKey": "SubnetId",
-    "ParameterValue": "subnet-979b76ed"
+    "ParameterValue": "subnet-5052aa2a"
   },
   {
     "ParameterKey": "InstanceSecurityGroup",
-    "ParameterValue": "sg-495b6323"
+    "ParameterValue": "sg-0de43e930ee70c49d"
   }
 ]
