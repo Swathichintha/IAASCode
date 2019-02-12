@@ -56,7 +56,7 @@
 				"KeyName": {
 					"Ref": "KeyName"
 				}
-/*				"UserData": {
+				"UserData": {
 					"Fn::Base64": {
 						"Fn::Join": ["", [
 							"#!/bin/bash -v\n",
@@ -76,7 +76,7 @@
 							"./shutdown.sh\n",
 							"./startup.sh\n",
 							"cd /usr/share/tomcat/webapps\n",
-							"wget http://18.222.223.204:8080/nexus-2.14.8-01/content/repositories/releases/org/dep/sonatype/simple_webapp/8.0/simple_webapp-8.0.war\n",
+							"wget http://18.218.17.26:8081/repository/maven-releases/com/domain/demo/1.0/demo-1.0.war\n",
 							"cd /usr/share/tomcat/bin\n",
 							"./shutdown.sh\n",
 							"./startup.sh\n",
@@ -94,4 +94,4 @@
 		}
 	}
 }
-*/
+
